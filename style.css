@@ -1,0 +1,25 @@
+body{
+font-family:'Segoe UL', sans-serif;
+background: #fffafc;
+text-align:center;
+}
+
+.hero{
+height:90vh;
+background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),
+url("boots.jpg");
+background-size: cover;
+background-position:center;
+border-bottom-left-radius:60px;
+border-bottom-right-radius: 60px;
+}
+.card{
+border: none;
+border-radius: 20px;
+box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+transition: .3s;
+}
+.card:hover{
+transform: translateY(-10px);
+}
+
